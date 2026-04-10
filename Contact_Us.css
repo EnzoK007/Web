@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #4a2f1b;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    padding: 15px;
+    background-color: #8b5e3c;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/* Page */
+.contact-page {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* Intro */
+.intro h1 {
+    color: #7a3e1d;
+}
+
+.intro p {
+    width: 70%;
+    margin: 10px auto 20px;
+}
+
+/* Layout */
+.contact-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cartes */
+.contact-card,
+.numbers-card {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e5cdb7;
+    text-align: left;
+}
+
+/* Formulaire */
+.contact-card label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-card input,
+.contact-card textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #d9c3ad;
+    box-sizing: border-box;
+}
+
+.contact-card textarea {
+    height: 130px;
+}
+
+#contactForm textarea {
+    height: 150px;
+}
+
+#contactForm button {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+#contactForm button:hover {
+    background-color: #744b2d;
+}
+
+/* Message */
+.confirmation-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #e2ccba;
+    padding: 8px;
+}
+
+th {
+    background-color: #f3dfcd;
+}
+
+/* Service client */
+.support-box {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #efd8c2;
+    background-color: #fff4e8;
+}
+
+/* Footer */
+footer {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

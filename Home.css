@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #4a2f1b;
+    margin: 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #8b5e3c;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+/* Image principale */
+.bg-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Titres */
+h3, h4 {
+    color: #7a3e1d;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Paragraphes */
+p {
+    margin: 10px auto;
+    max-width: 800px;
+    font-size: 18px;
+}
+
+.intro-text {
+    text-align: left;
+}
+
+/* Section favoris */
+.favorites {
+    margin: 30px 0;
+}
+
+.favorite-item {
+    display: inline-block;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #d9b99b;
+    vertical-align: top;
+}
+
+.favorite-image {
+    width: 200px;
+    height: 250px;
+}
+
+/* Promotions */
+.promotions-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.Promotion_Reduc,
+.Promotion_Etudiant,
+.Promotion_Duo {
+    display: flex;
+    flex: 0 0 220px;
+    width: 220px;
+    max-width: 220px;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #d9b99b;
+}
+
+.promo-image {
+    width: 200px;
+    height: 250px;
+}
+
+/* Avis */
+.customer-reviews {
+    background-color: #f5e6d8;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Footer */
+footer {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

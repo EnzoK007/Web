@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #4a2f1b;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Navigation */
+nav {
+    background-color: #8b5e3c;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/* Sections */
+.menu-section {
+    font-size: 34px;
+    color: #7a3e1d;
+    margin: 40px auto 12px;
+    font-weight: bold;
+}
+
+/* Conteneur */
+.menu-category {
+    max-width: 1080px;
+    margin: 0 auto 30px;
+    padding: 0 14px;
+}
+
+/* Lignes menu */
+.menu-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 22px;
+    padding: 22px;
+    border: 1px solid #e5cdb7;
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+
+.menu-row.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Texte */
+.menu-text {
+    flex: 1;
+    text-align: center;
+}
+
+.menu-text h3 {
+    margin: 0 0 6px;
+    font-size: 25px;
+    color: #6a3418;
+}
+
+.menu-text p {
+    margin: 0 0 14px;
+    font-size: 18px;
+    color: #5d3a22;
+    text-align: center;
+}
+
+/* Image */
+.menu-media {
+    width: 260px;
+}
+
+.menu-media img {
+    width: 100%;
+    min-height: 240px;
+    border-radius: 10px;
+    border: 1px solid #d9b99b;
+}
+
+/* Prix */
+.price {
+    font-size: 0.95em;
+    color: #8b5e3c;
+    font-weight: 700;
+}
+
+/* Titres */
+h3, h4 {
+    color: #7a3e1d;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Paragraphes */
+p {
+    margin: 10px auto 20px;
+    max-width: 800px;
+    font-size: 22px;
+}
+
+footer p {
+    margin: 0;
+    max-width: none;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

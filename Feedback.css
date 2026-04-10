@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #4a2f1b;
+    margin: 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #8b5e3c;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/* Page */
+.feedback-page {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.intro-block {
+    margin-bottom: 20px;
+}
+
+.intro-block h1 {
+    color: #7a3e1d;
+    margin-bottom: 10px;
+}
+
+.intro-block p {
+    width: 80%;
+    margin: auto;
+}
+
+/* Carte principale */
+.feedback-card {
+    background-color: white;
+    border: 1px solid #e8d4c2;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Sections */
+.form-section {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0dfcf;
+}
+
+.form-section h2 {
+    color: #7a3e1d;
+    margin-bottom: 15px;
+}
+
+/* Champs */
+.field-group {
+    margin-bottom: 15px;
+}
+
+.field-group label,
+.rating-block p {
+    font-weight: bold;
+    color: #5a341c;
+}
+
+.field-group input,
+.field-group select,
+.field-group textarea {
+    width: 100%;
+    border: 1px solid #d9c3ad;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.field-group textarea {
+    height: 160px;
+}
+
+/* Deux colonnes */
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.two-columns .field-group {
+    width: 48%;
+}
+
+/* Notes */
+.rating-block {
+    background-color: #fff7f0;
+    border: 1px solid #f1dfcf;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.rating-options {
+    text-align: center;
+}
+
+.rating-options label {
+    display: inline-block;
+    width: 20%;    
+    margin: 5px;
+    padding: 6px;
+    border: 1px solid #e7d4c4;
+    background-color: white;
+    font-size: 14px;  
+}
+
+/* Sliders */
+.slider-grid .field-group {
+    width: 45%;
+    padding: 10px;
+}
+
+.slider-grid input[type="range"] {
+    width: 90%;
+}
+
+/* Bouton */
+.submit-button {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #744b2d;
+}
+
+/* Titres */
+h1, h2, h3, h4 {
+    color: #7a3e1d;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+/* Paragraphes */
+p {
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+footer p {
+    margin: 0;
+    max-width: none;
+}
+
+/* Footer */
+footer {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
